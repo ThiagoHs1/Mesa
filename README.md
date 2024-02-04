@@ -1,18 +1,10 @@
-## Getting Started
+# Calculadora de Média de Notas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java calcula a média de quatro notas pré-definidas. O objetivo é demonstrar uma maneira simples de realizar operações aritméticas e exibir o resultado no console, sem a necessidade de interação do usuário.
 
-## Folder Structure
+## Funcionamento
 
-The workspace contains two folders by default, where:
+O programa define quatro variáveis, cada uma representando uma nota. Em seguida, calcula a média dessas notas somando-as e dividindo o total por quatro. Por fim, o resultado é impresso no console.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+# Exercicio realizado para atividade do curso da EBAC
