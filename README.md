@@ -1,18 +1,12 @@
-## Getting Started
+# Programa de Avaliação de Notas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa Java lê quatro notas do console, calcula a média dessas notas e determina se o aluno está aprovado, em recuperação ou reprovado com base na média calculada.
 
-## Folder Structure
+## Funcionamento
 
-The workspace contains two folders by default, where:
+O programa solicita ao usuário que insira quatro notas (podendo ser números decimais). Calcula a média dessas notas e, em seguida, avalia o resultado da seguinte forma:
+- Se a média for igual ou superior a 7, o programa imprime "Aprovado".
+- Se a média for igual ou superior a 5, mas inferior a 7, o programa imprime "Em recuperação".
+- Se a média for inferior a 5, o programa imprime "Reprovado".
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ATIVIDADE REALIZADA DURANTE O CURSO PROFISSÃO: DESENVOLVEDOR FULL STACK JAVA
