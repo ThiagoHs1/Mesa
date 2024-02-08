@@ -1,18 +1,5 @@
-## Getting Started
+# Separador de Nomes por Sexo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este programa em Java lê uma série de nomes e o sexo associado a cada nome (Masculino ou Feminino) inseridos pelo usuário. Em seguida, separa os nomes em dois grupos distintos com base no sexo e exibe esses grupos separadamente.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## ATIVIDADE REALIZADA DURANTE O CURSO PROFISSÃO: DESENVOLVEDOR FULL STACK JAVA
