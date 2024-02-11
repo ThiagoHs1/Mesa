@@ -3,23 +3,37 @@ import java.util.*;
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        List<String> masculino = new ArrayList<>();
+        List<String> feminino = new ArrayList<>();
 
-        System.out.println("Digite os nomes separados por vírgula:");
-        String input = scanner.nextLine();
+        System.out.println("Digite o nome e o sexo separados por tracinho (ex: João - M), digite 'fim' para encerrar:");
 
-        String[] nomes = input.split(",");
+        while (scanner.hasNextLine()) {
+            String input = scanner.nextLine();
 
-        // Convertendo para lista para facilitar a ordenação
-        List<String> listaNomes = new ArrayList<>(Arrays.asList(nomes));
+            if ("fim".equalsIgnoreCase(input)) {
+                break;
+            }
 
-        // Ordenando a lista
-        Collections.sort(listaNomes);
+            String[] partes = input.split("-");
+            if (partes.length == 2) {
+                String nome = partes[0].trim();
+                String sexo = partes[1].trim();
 
-        // Imprimindo os nomes ordenados
-        System.out.println("Nomes ordenados:");
-        for (String nome : listaNomes) {
-            System.out.println(nome.trim());
+                if ("M".equalsIgnoreCase(sexo)) {
+                    masculino.add(nome);
+                } else if ("F".equalsIgnoreCase(sexo)) {
+                    feminino.add(nome);
+                }
+            }
         }
+
+        // Imprimindo os grupos
+        System.out.println("Masculino:");
+        masculino.forEach(System.out::println);
+
+        System.out.println("Feminino:");
+        feminino.forEach(System.out::println);
 
         scanner.close();
     }
