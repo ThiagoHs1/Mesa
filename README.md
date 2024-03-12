@@ -1,18 +1,5 @@
-## Getting Started
+# Projeto Java Simples: Filtragem de Pessoas
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto Java é uma aplicação simples que demonstra o uso de expressões lambda para filtrar uma lista de pessoas com base no sexo, especificamente para identificar pessoas do sexo feminino. Ele lê uma lista pré-definida de nomes e sexos, filtra as mulheres da lista e imprime seus nomes no console.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## PROJETO REALIZADO PARA AS ATIVIDADES DO CURSO DA EBAC FULL STACK: JAVA
