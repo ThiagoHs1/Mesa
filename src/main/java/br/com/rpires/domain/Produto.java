@@ -16,20 +16,20 @@ import br.com.rpires.dao.Persistente;
  */
 @Tabela("TB_PRODUTO")
 public class Produto implements Persistente {
-	
+
 	@ColunaTabela(dbName = "id", setJavaName = "setId")
 	private Long id;
 
 	@TipoChave("getCodigo")
 	@ColunaTabela(dbName = "codigo", setJavaName = "setCodigo")
 	private String codigo;
-	
+
 	@ColunaTabela(dbName = "nome", setJavaName = "setNome")
 	private String nome;
-	
+
 	@ColunaTabela(dbName = "descricao", setJavaName = "setDescricao")
 	private String descricao;
-	
+
 	@ColunaTabela(dbName = "valor", setJavaName = "setValor")
 	private BigDecimal valor;
 
@@ -65,6 +65,19 @@ public class Produto implements Persistente {
 		this.valor = valor;
 	}
 
+	// ATIVIDADE DO MODULO 30
+	@ColunaTabela(dbName = "tipo", setJavaName = "setTipo")
+	private String tipo;
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	//
+
 	public Long getId() {
 		return id;
 	}
@@ -72,5 +85,5 @@ public class Produto implements Persistente {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
+
 }
