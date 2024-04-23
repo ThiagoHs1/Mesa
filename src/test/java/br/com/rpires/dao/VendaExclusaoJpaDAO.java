@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package br.com.rpires.dao;
 
 import br.com.rpires.dao.generic.jpa.GenericJpaDB1DAO;
@@ -12,7 +10,7 @@ import br.com.rpires.exceptions.TipoChaveNaoEncontradaException;
 /**
  * @author rodrigo.pires
  *
- * Classe utilizada somente no teste para fazer a exclusão das vendas
+ *         Classe utilizada somente no teste para fazer a exclusão das vendas
  *
  */
 public class VendaExclusaoJpaDAO extends GenericJpaDB1DAO<VendaJpa, Long> implements IVendaJpaDAO {
