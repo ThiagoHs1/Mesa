@@ -34,4 +34,20 @@ Este repositório contém dois projetos de microserviços desenvolvidos em Java 
 - `POST /clientes`: Cadastra um novo cliente.
 - `DELETE /clientes/{id}`: Exclui um cliente pelo ID.
 
+### Produto Microserviço
+
+#### Dependências
+
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Lombok
+- Spring Boot DevTools
+
+#### Endpoints
+
+- `GET /produtos`: Lista todos os produtos.
+- `POST /produtos`: Cadastra um novo produto.
+- `DELETE /produtos/{id}`: Exclui um produto pelo ID.
+
 ### PROJETO REALIZADO PARA O CURSO EBAC: FULL STACK-JAVA
